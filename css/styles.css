@@ -343,6 +343,18 @@ button {
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+  .social-links {
+      display: flex;
+      justify-content: space-evenly;
+      justify-content: center;
+      gap: 24px;
+  }
+
+  .social-li {
+      width: 40px;
+      height: 40px;
+  }
+
 
 
 
@@ -811,7 +823,7 @@ display: none;
                                                                                                                                         flex-direction: column;
                                                                                                                                         align-items: center;
                                                                                                                                         justify-content: center;
-                                                                                                                                        gap: 32px;
+                                                                                                                                        gap: 72px;
                                                                                                                                         font-weight: 500;
                                                                                                                                 }
 
@@ -907,7 +919,7 @@ display: none;
 
   /*-------------PORTFOLIO---------*/
   .portfolio {
-      padding: 120px 0;}
+      padding: 96px 0;}
 
           .portfolio-link {
             display: flex;
